@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personagens de Rick e Morty</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.png" alt="Logo Rick And Morty" class="logo">
+    <input type="text" id="searchCharactersByName" placeholder="Pesquisar personagem por nome" />
+  </header>
+
+  <main>
+    <div class="characters" id="characterList">
+
+    </div>
+
+    <div class="pagination" id="pagination">
+      <button id="prevButton">Anterior</button>
+      <button id="nextButton">Próximo</button>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
